@@ -30,6 +30,7 @@ section {
     height: 300px;
     width: 495px;
     float: left;
+    position: relative;
 }
 
 article {
@@ -37,7 +38,30 @@ article {
     color: #ebebeb;
     padding: 20px;
     height: 200px;
-    z-index: 1;
+    width: 450px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 10px;
+}
+
+#divh1 {
+    background-color: #ebebeb;
+    color: #777;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 420px;
+    position: absolute;
+    bottom: 80px;
+}
+
+#divp {
+    background-color: #ebebeb;
+    color: #777;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 420px;
+    position: absolute;
+    bottom: 10px;
 }
 
 aside {
